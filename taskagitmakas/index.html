@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tas Kagit Makas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sol"></div>
+    <div id="orta">
+        <div id="oyuncu">
+            <p id="label1">Seçimini yap!(Üzerine tıkla)<input type="button" value="Sifirla" onclick="window.location.reload()"> <input type="button" value="Onayla" id="onayla_button" onclick="calis()"></p>
+           <img src="images/tas.png" id="tas" onclick="tikla('tas')"></img><br>
+           <img src="images/kagit.png" id="kagit" onclick="tikla('kagit')"></img><br>
+           <img src="images/makas.png" id="makas" onclick="tikla('makas')"></img>
+        </div>
+        <div id="bot"><p id="label2">BOT</p>
+            <img  id="bosresim" ></img><br>
+            <img  id="bot_resim" ></img><br>
+            <img  id="bosresim" ></img>
+        </div>
+        <div id="clear2"></div>
+    </div>
+    <div id="sag"></div>
+    <div id="clear"></div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
